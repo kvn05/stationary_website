@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar-nav.me-auto.mb-2.mb-lg-0{
+   display: flex;
+   width: 100%;
+   justify-content: flex-end;
+}
+.navbar{
+    background-color: aliceblue;
+    height:100px;
+    
+}
+
+.navbar-dark{
+    background-color: #202C45;
+}
+.logo{
+    height: 60px;
+}
+.navbar-nav.me-auto{
+    justify-content: flex-start;
+
+}
+.mb-80{
+    margin-bottom: 80px;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+.row{
+width:100%;
+}
+
+.hero{
+    display: flex;
+    height: 700px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.hero img{
+    height: 680px;
+    width: 1420px;
+    border-radius: 10px;
+}
+
+.container-fluid{
+    background-color: aliceblue;
+}
+.d-flex {
+    border-style:solid;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-left: 20px;
+}
+.d-flex .form-control{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 400px;
+    padding-right: 0%;
+    border-style: none;
+}
+.d-flex .btn{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius:0px;
+    border-bottom-left-radius: 0px;
+    background-color: aliceblue;
+    padding-left: 0%;
+    width:40px;
+    border-style: none;
+    
+}
+/* admin-dashboard */
+.admin_img{
+ height:100px;
+width: 100px;
+object-fit: contain;
+}
+
+
